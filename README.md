@@ -16,12 +16,12 @@
 
 ## Architecture
 
-The architecture combines MySQL, Python automation, and a Large Language Model (Google Gemini) to transform transactional data into executive-ready business insights.
+The architecture integrates MySQL, Python automation, and the Google Gemini API to transform retail transaction data into executive-ready business insights.
 ![Architecture](docs/architecture.png)
 
 ## Overview
 
-Retail businesses generate large volumes of transactional data but often lack a structured pipeline to convert that data into decision-ready insight. This project builds that pipeline end-to-end — from raw CSV ingestion, through data validation and relational modelling, into advanced SQL analytics, and finally into an AI-generated executive report suitable for leadership review.
+Retail businesses generate large volumes of transactional data but often lack a structured pipeline to convert that data into decision-ready insight. This project builds that pipeline end-to-end — from raw CSV ingestion, through data validation and relational modelling, into advanced SQL analytics, and finally into an AI-assisted executive report suitable for leadership review.
 
 ## Project Highlights
 
@@ -55,8 +55,7 @@ Full analysis: [`sql/7.business_case_studies.sql`](sql/7.business_case_studies.s
 
 ## Workflow
 
-The pipeline includes two review loops — a data validation loop before modelling, and a human review loop before the AI-generated report is published.
-The workflow follows a structured analytics lifecycle: data validation, relational modelling, SQL analytics, reusable database objects, Python automation, AI-assisted reporting, and manual business review.
+The workflow follows a structured analytics lifecycle-from data validation and relational modelling to SQL analytics, reusable database objects, Python automation, AI-assisted reporting, and manual business review. Two review loops ensure both data quality and factual accuracy before the final report is published.
 ![Workflow](docs/workflow.png)
 
 ## Entity Relationship Diagram
@@ -69,7 +68,7 @@ The database is normalized into three core entities—Customers, Orders, and Pro
 
 ```
 ├── dataset/            # Source data + provenance notes
-├── sql/                # Numbered SQL pipeline (setup → validation → modelling → analysis → views → procedures)
+├── sql/                # Numbered SQL pipeline (setup → validation → modeling → analysis → views → procedures)
 ├── python/             # AI automation and executive reporting
 ├── reports/            # Generated + human-reviewed executive report
 ├── docs/               # Architecture, ER, and workflow diagrams
@@ -94,7 +93,7 @@ The database is normalized into three core entities—Customers, Orders, and Pro
 ## How to Run
 
 ```bash
-git clone https://github.com/<your-username>/retail-decision-support-system.git
+git clone https://github.com/unnatirai21/retail-decision-support-system.git
 cd retail-decision-support-system
 pip3 install -r requirements.txt
 cp .env.example .env   # then fill in your own MySQL + Gemini credentials
@@ -112,13 +111,13 @@ python3 python/ai_insights.py
 
 ## Screenshots
 
-| Database Design | Stored Procedure Execution |
+| Database Design | Views |
 |---|---|
-| ![Database](screenshots/mysql_database.jpeg) | ![Stored Procedure](screenshots/mysql_procedure.jpeg) |
+| ![Database](screenshots/mysql_database.jpeg) | ![Views](screenshots/mysql_views.jpeg) |
 
-| Views | Executive Report |
+| Stored Procedure Execution | Executive Report |
 |---|---|
-| ![Views](screenshots/mysql_views.jpeg) | ![Executive Report](screenshots/final_report.jpeg) |
+| ![Stored Procedure Execution](screenshots/mysql_procedure.jpeg) | ![Executive Report](screenshots/final_report.jpeg) |
 
 | Terminal Execution |
 |---|
@@ -126,13 +125,13 @@ python3 python/ai_insights.py
 
 ## Data Source
 
-This project uses a synthetic retail transaction dataset sourced from Kaggle for educational and portfolio purposes. Additional dataset details are available in [`dataset/dataset_source.md`](dataset/dataset_source.md)
+This project uses a synthetic retail transaction dataset sourced from Kaggle for educational and portfolio purposes. Additional dataset details are available in [`dataset/dataset_source.md`](dataset/dataset_source.md).
 
 ## Author
 
 **Unnati Rai**
 B.Sc. Economics (Hons.) — Data Analytics
-[LinkedIn](www.linkedin.com/in/unnatirai) · [GitHub](https://github.com/unnatirai21)
+[LinkedIn](https://www.linkedin.com/in/unnatirai) · [GitHub](https://github.com/unnatirai21)
 
 ## License
 
