@@ -112,13 +112,17 @@ python3 python/ai_insights.py
 
 ## Screenshots
 
-| Database Schema | Stored Procedure Execution |
+| Database Design | Stored Procedure Execution |
 |---|---|
-| ![DB](screenshots/mysql_database.png) | ![Proc](screenshots/mysql_procedures.png) |
+| ![Database](screenshots/mysql_database.jpeg) | ![Stored Procedure](screenshots/mysql_procedure.jpeg) |
 
-| Terminal Execution | Executive Report |
+| Views | Executive Report |
 |---|---|
-| ![Terminal](screenshots/terminal_output.png) | ![Report](screenshots/final_report.png) |
+| ![Views](screenshots/mysql_views.jpeg) | ![Executive Report](screenshots/final_report.jpeg) |
+
+| Terminal Execution |
+|---|
+| ![Terminal](screenshots/terminal_output1.jpeg) |
 
 ## Data Source
 
@@ -128,7 +132,7 @@ This project uses a synthetic retail transaction dataset sourced from Kaggle for
 
 **Unnati Rai**
 B.Sc. Economics (Hons.) — Data Analytics
-[LinkedIn](www.linkedin.com/in/unnatirai) · [GitHub]([#](https://github.com/unnatirai21))
+[LinkedIn](www.linkedin.com/in/unnatirai) · [GitHub](https://github.com/unnatirai21)
 
 ## License
 
