@@ -2,7 +2,7 @@
 
 # Retail Decision Support System
 
-**An end-to-end SQL analytics pipeline that transforms retail transaction data into SQL-driven business insights and an AI-assisted executive report.**
+**An end-to-end retail analytics pipeline that transforms transaction data into SQL-driven insights, AI-assisted executive reporting, and interactive Power BI dashboards.**
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -99,6 +99,7 @@ An interactive Power BI dashboard extends the SQL analysis into an executive-fac
 ├── python/             # AI automation and executive reporting
 ├── reports/            # Generated + human-reviewed executive report
 ├── docs/               # Architecture, ER, and workflow diagrams
+├── powerbi/            # Power BI dashboard + dashboard screenshots
 ├── screenshots/        # Execution proof (queries, procedures, terminal output)
 └── requirements.txt
 ```
