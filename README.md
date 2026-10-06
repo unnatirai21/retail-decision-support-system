@@ -64,6 +64,33 @@ The workflow follows a structured analytics lifecycle-from data validation and r
 
 The database is normalized into three core entities—Customers, Orders, and Products—to reduce redundancy and support scalable analytical queries through primary and foreign key relationships.
 
+## Power BI Dashboard
+
+An interactive Power BI dashboard extends the SQL analysis into an executive-facing business intelligence layer, covering overall performance, products, regions, and categories.
+
+### Dashboard Pages
+
+| Page | Purpose |
+|---|---|
+| Executive Overview | Summarizes overall sales performance and key business KPIs |
+| Product Performance | Identifies high-selling and high-revenue products using revenue, units sold, and profit margin |
+| Regional Performance | Compares regional revenue, delivery performance, and return rates |
+| Category Performance | Compares category revenue, units sold, discounts, and profit margins |
+
+### Dashboard Screenshots
+
+#### Executive Overview
+![Executive Overview](powerbi/executive_overview.png)
+
+#### Product Performance
+![Product Performance](powerbi/product_performance.png)
+
+#### Regional Performance
+![Regional Performance](powerbi/regional_performance.png)
+
+#### Category Performance
+![Category Performance](powerbi/category_performance.png)
+
 ## Folder Structure
 
 ```
